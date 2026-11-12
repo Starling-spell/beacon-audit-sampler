@@ -1,0 +1,170 @@
+{
+  "network": "StudioNet",
+  "source_commit": "b8b8c4d4b0968a504fbef6edb4e9a7175b5018a1",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/BeaconAuditSampler.py"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1d9",
+      "hash": "0x760890945404d60d54794933700a4a4222b0c75688506bdb6db1e629018aa253",
+      "receipt": {
+        "hash": "0x760890945404d60d54794933700a4a4222b0c75688506bdb6db1e629018aa253",
+        "address": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "register",
+      "args": [
+        "write",
+        "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+        "register",
+        "--args",
+        "inventory-demo-v1",
+        "bf3354b8f90ec64bad5bae9cdc118fdc17658a9bc178e5ad9f24012854c8ef1f",
+        "8",
+        "3",
+        "33887154"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1da",
+      "hash": "0xef3330fe9a5298c5d2114a24b849ffbd634d41eb7b08ab5d133c3471d2e9a918",
+      "receipt": {
+        "hash": "0xef3330fe9a5298c5d2114a24b849ffbd634d41eb7b08ab5d133c3471d2e9a918",
+        "address": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "draw",
+      "args": [
+        "write",
+        "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+        "draw",
+        "--args",
+        "5e3209e1ccaa48c63307a3cfad32de742e91f4e16377df8a6e808b6f1211a111"
+      ],
+      "signer": "0x34346773a22564cbcc5F1D67D1c1F9f196DaEA35",
+      "nonce": "0x39",
+      "hash": "0x57122dc4c4ed89816de0e2d0a70a23622811849ad97d4667493907409d01416f",
+      "receipt": {
+        "hash": "0x57122dc4c4ed89816de0e2d0a70a23622811849ad97d4667493907409d01416f",
+        "address": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+  "source": {
+    "address": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+    "source_match": true,
+    "sha256": "64c0cce203a21729e39fb4ae5a3e0dd7302a14ec5c3245f8f4c414c7450d1d1a"
+  },
+  "round": 33887154,
+  "before_draw": {
+    "commitment": {
+      "audit_id": "5e3209e1ccaa48c63307a3cfad32de742e91f4e16377df8a6e808b6f1211a111",
+      "batch": "inventory-demo-v1",
+      "chain_id": 61999,
+      "commitment": "8931ecfa8c0022500bde92f831cb8e9a52e6f1e0ef22a956de5024d734f29d98",
+      "contract": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+      "publisher": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "quicknet": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "registered_at": 1794464657,
+      "root": "bf3354b8f90ec64bad5bae9cdc118fdc17658a9bc178e5ad9f24012854c8ef1f",
+      "round": 33887154,
+      "row_count": 8,
+      "sample_count": 3,
+      "scheduled_at": 1794464826
+    },
+    "draw": null
+  },
+  "audit": {
+    "commitment": {
+      "audit_id": "5e3209e1ccaa48c63307a3cfad32de742e91f4e16377df8a6e808b6f1211a111",
+      "batch": "inventory-demo-v1",
+      "chain_id": 61999,
+      "commitment": "8931ecfa8c0022500bde92f831cb8e9a52e6f1e0ef22a956de5024d734f29d98",
+      "contract": "0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D",
+      "publisher": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "quicknet": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "registered_at": 1794464657,
+      "root": "bf3354b8f90ec64bad5bae9cdc118fdc17658a9bc178e5ad9f24012854c8ef1f",
+      "round": 33887154,
+      "row_count": 8,
+      "sample_count": 3,
+      "scheduled_at": 1794464826
+    },
+    "draw": {
+      "pulse": {
+        "randomness": "40261cea56c2ef66e601ba8a5497db2cd9aa0e9416d49b6ed89aae121afd41dc",
+        "round": 33887154,
+        "signature": "af1b6456af0cf811f0f8820385b075dad9b35a922a51bfdb3f032a3a9339ebe4b944a56767e8c13f2e5a353daa835be9"
+      },
+      "selected": [
+        4,
+        7,
+        1
+      ]
+    }
+  },
+  "offchain_bls_verified": true,
+  "row_checks": [
+    {
+      "index": 4,
+      "row": "batch-24|item-104|count-22",
+      "siblings": "0433110e0de79762077ac66855248da69fbea8cfc9d7b3ec2acbeeab2a2afb2cda9290933c06706f9d97627734cc2dd9b9593052b96165d98b865756732d8e3c23330dad8181938ab499812c9ca52e59ad015e3a6fe8b34e95f19dc3bf680bd3",
+      "valid": true
+    },
+    {
+      "index": 7,
+      "row": "batch-24|item-107|count-29",
+      "siblings": "1c6daf63b17c150670e87eb05f7ae4858a5b4231aa6f8d0e1fecb3752e65d3ecaa8fb9234f3f33580cd22c96d6cf04d44ac9030533ac99309b5a84a5e575f15e23330dad8181938ab499812c9ca52e59ad015e3a6fe8b34e95f19dc3bf680bd3",
+      "valid": true
+    },
+    {
+      "index": 1,
+      "row": "batch-24|item-101|count-12",
+      "siblings": "dfc8f506c0e6ac036c618e48eb00db0a6d9cae82b8619024b7aacf754b9d6f5a04d603bc3f17f84e09fbd6529f2b1023e63bb3968e4ef62169d09be7bc9b41b54aa4552ffcd595c5aa8d5cacda069921eb7bf86ee9131ae2b4bc3c31c299057c",
+      "valid": true
+    }
+  ],
+  "rejections": {
+    "altered_row": true,
+    "altered_path": true,
+    "unselected_row": true
+  },
+  "verified": true
+}

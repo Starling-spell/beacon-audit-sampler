@@ -23,4 +23,4 @@ python -m pytest tests -q
 
 Tests cover both-relay verification, a forged pulse with a matching digest, rejection sampling, sparse/full shuffle agreement, timed writes, permissionless drawing, and index-bound Merkle proofs.
 
-StudioNet deployment pending.
+[StudioNet contract](https://explorer-studio.genlayer.com/address/0xaDE0DbE7a88Ebc44F6f74D7138980C9bE5BF831D) · [Live proof matrix](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)
